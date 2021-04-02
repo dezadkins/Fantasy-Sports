@@ -1,5 +1,7 @@
 import React from "react";
 import HeaderOption from "../HeaderOption/HeaderOption";
+import BlurOnIcon from "@material-ui/icons/BlurOn";
+import SearchIcon from "@material-ui/icons/Search";
 
 function Header() {
   return (
@@ -15,9 +17,9 @@ function Header() {
           <HeaderOption title="Home" />
           <HeaderOption title="Listen" />
           <HeaderOption title="Fantasy" />
-          <HeaderOption Icon={} />
-          <HeaderOption Icon={} />
-          <HeaderOption Icon={} />
+          <HeaderOption Icon={BlurOnIcon} />
+          <HeaderOption Icon={SearchIcon} />
+          <HeaderOption avatar={true} />
         </div>
       </div>
       <div className="header__bottom"></div>

@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderOption from "../HeaderOption/HeaderOption";
 
 function Header() {
   return (
@@ -10,7 +11,14 @@ function Header() {
             alt=""
           />
         </div>
-        <div className="header__right"></div>
+        <div className="header__right">
+          <HeaderOption title="Home" />
+          <HeaderOption title="Listen" />
+          <HeaderOption title="Fantasy" />
+          <HeaderOption Icon={} />
+          <HeaderOption Icon={} />
+          <HeaderOption Icon={} />
+        </div>
       </div>
       <div className="header__bottom"></div>
     </div>

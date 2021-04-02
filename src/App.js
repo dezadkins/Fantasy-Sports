@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import Header from "./Header/Header";
 
 function App() {
   return (
     <div className="app">
-      <h1>Dream Team</h1>
+      <Header />
       {/* header1 */}
       {/* header2 */}
       <div className="app__body">

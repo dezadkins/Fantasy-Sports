@@ -19,7 +19,7 @@ function Header() {
           <HeaderOption title="Fantasy" />
           <HeaderOption Icon={BlurOnIcon} />
           <HeaderOption Icon={SearchIcon} />
-          <HeaderOption avatar={true} />
+          {/* <HeaderOption avatar={true} /> */}
         </div>
       </div>
       <div className="header__bottom"></div>
